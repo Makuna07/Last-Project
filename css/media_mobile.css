@@ -1,0 +1,115 @@
+@media (max-width:425px){
+    header {
+        padding: 20px;
+    }
+    .portfolio_img {
+        display: none;
+    }
+    .header_info {
+        padding-top: 15%;
+    }
+    .body_footer {
+        float: unset;
+        width: 100%;
+        margin-top: 35px;
+    }
+    .about {
+        display: block;
+        padding: 0 20px;
+    }
+    .about_me {
+        width: 100%;
+        padding-bottom: 20px;
+    }
+    .about_me > h1 {
+        text-align: center;
+    }
+    .about_me > h2 {
+        text-align: center;
+    }
+    .about_me > p {
+        text-align: center;
+    }
+    .hire_me {
+        display: none;
+    }
+    .about_me_img {
+        margin: 0;
+        width: 100%;
+    }
+    .about_me_img > img {
+        width: 100%;
+    }
+    .about_me_progress {
+        width: 100%;
+    }
+    .my_social {
+        justify-content: space-evenly;
+    }
+    .contact_details_header {
+        display: block;
+    }
+    .my_details {
+        margin: 0 20%;
+    }
+    .service_head > ul {
+        display: grid;
+        justify-content: space-around;
+        position: relative;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 20px;
+        padding-right: 20px;
+    }
+    .my_projects {
+        display: block;
+    }
+    .project_list > ul {
+        width: 100%;
+        padding:0;
+    }
+    .projects {
+        padding:0;
+    }
+    .project_list > ul > li {
+        margin:25px
+    }
+    .project_list > ul > li:last-child{
+        margin-bottom: 25px;
+    }
+    .projects_view > ul {
+        padding: 12px
+    }
+    .projects_view > ul >li >img {
+        width: 200px;
+    }
+    .news_section:nth-of-type(odd) {
+        margin:0
+    }
+    .news_section:nth-of-type(even) {
+        margin:0
+    }
+    .news_section {
+        padding-top: 10px;
+    }
+    .partner {
+        width: 50%;
+    }
+    .contact_fields {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .contact_fields > input {
+        width: 300px;
+    }
+    .contact_message > textarea {
+        width: 300px;
+    }
+    .contact_message {
+        display: flex;
+        justify-content: center;
+    }
+    footer > h1 {
+        font-size: 2em;
+    }
+}
